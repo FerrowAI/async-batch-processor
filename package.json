@@ -1,1 +1,1 @@
-{"name":"async-batch-processor","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["ferrow"],"license":"MIT"}
+{"name":"async-batch-processor","version":"1.0.0","description":"Sliding-window async pool with per-item retry, order preservation, and helpers","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc"},"keywords":["async","concurrency","pool","retry","batch"],"author":"Ruzylo-cloud","license":"MIT","devDependencies":{"typescript":"^5.0.0"}}
