@@ -1,4 +1,8 @@
 # async-batch-processor
+
+```sh
+npm install @ferrow/async-batch-processor
+```
 ![CI](https://github.com/FerrowAI/async-batch-processor/actions/workflows/ci.yml/badge.svg)
 
 Sliding-window async pool. Keeps exactly N items in flight, preserves result order, supports per-item retry with exponential backoff, abort signaling, and progress callbacks.
