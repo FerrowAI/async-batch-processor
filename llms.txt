@@ -1,7 +1,7 @@
 # async-batch-processor
 > Sliding-window async pool with per-item retry, order preservation, and helpers
 
-Sliding-window async pool. Keeps exactly N items in flight, preserves result order, supports per-item retry with exponential backoff, abort signaling, and progress callbacks. ```typescript import { AsyncBatchProcessor } from 'async-batch-processor';
+Sliding-window async pool. Keeps exactly N items in flight, preserves result order, supports per-item retry with exponential backoff, abort signaling, and progress callbacks.
 
 ## API
 - `ProcessOptions`
